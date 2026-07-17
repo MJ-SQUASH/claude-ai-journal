@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="claude-journal — a Claude Code plugin for a repo's AI operating system">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f2a44"/>
+      <stop offset="1" stop-color="#141c31"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1280" height="320" fill="url(#bg)"/>
+
+  <!-- subtle dotted grid (upper band, clear of the logo + text) -->
+  <g fill="#ffffff" opacity="0.05">
+    <circle cx="360" cy="44" r="2"/><circle cx="440" cy="44" r="2"/><circle cx="520" cy="44" r="2"/>
+    <circle cx="600" cy="44" r="2"/><circle cx="680" cy="44" r="2"/><circle cx="760" cy="44" r="2"/>
+  </g>
+
+  <!-- decorative "journal pages" on the right -->
+  <g transform="translate(900 70)">
+    <rect x="24" y="24" width="300" height="188" rx="14" fill="url(#page)" opacity="0.55"/>
+    <rect x="12" y="12" width="300" height="188" rx="14" fill="url(#page)" opacity="0.8"/>
+    <rect x="0"  y="0"  width="300" height="188" rx="14" fill="#182136" stroke="#2b3a5c" stroke-width="1.5"/>
+    <!-- header bar in Claude orange -->
+    <rect x="20" y="22" width="120" height="12" rx="6" fill="#D97757"/>
+    <!-- text lines -->
+    <g fill="#3d4c6e">
+      <rect x="20" y="58"  width="260" height="9" rx="4.5"/>
+      <rect x="20" y="80"  width="230" height="9" rx="4.5"/>
+      <rect x="20" y="102" width="248" height="9" rx="4.5"/>
+      <rect x="20" y="124" width="180" height="9" rx="4.5"/>
+    </g>
+    <!-- status dots -->
+    <circle cx="26" cy="160" r="6" fill="#ef4444"/>
+    <circle cx="50" cy="160" r="6" fill="#f59e0b"/>
+    <circle cx="74" cy="160" r="6" fill="#22c55e"/>
+    <rect x="92" y="154" width="120" height="12" rx="6" fill="#26324e"/>
+  </g>
+
+  <!-- Official Claude "spark" mark: radial sunburst of tapered petals in Claude orange
+       (#D97757). Hand-built as inline vector paths so the banner stays fully self-contained
+       — GitHub embeds README SVGs via <img> and blocks external refs. Hero icon, left. -->
+  <g transform="translate(150 172)" fill="#D97757">
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(0)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(30)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(60)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(90)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(120)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(150)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(180)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(210)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(240)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(270)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(300)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(330)"/>
+    <circle cx="0" cy="0" r="6" fill="#c15f3c"/>
+  </g>
+
+  <!-- pill -->
+  <g transform="translate(214 90)">
+    <rect x="0" y="0" width="204" height="30" rx="15" fill="#ffffff" opacity="0.06"/>
+    <rect x="0" y="0" width="204" height="30" rx="15" fill="none" stroke="#D97757" stroke-opacity="0.6" stroke-width="1"/>
+    <g transform="translate(20 15) scale(0.17)" fill="#D97757">
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(0)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(30)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(60)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(90)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(120)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(150)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(180)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(210)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(240)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(270)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(300)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(330)"/>
+    </g>
+    <text x="40" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#f5d9cc" letter-spacing="0.5">CLAUDE CODE PLUGIN</text>
+  </g>
+
+  <!-- title -->
+  <text x="212" y="184" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" fill="#f8fafc" letter-spacing="-1.5">claude-journal</text>
+
+  <!-- tagline -->
+  <text x="214" y="224" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="500" fill="#94a3b8">A repo's <tspan fill="#D97757" font-weight="700">AI operating system</tspan> — docs + automation</text>
+  <text x="214" y="252" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="500" fill="#94a3b8">for cheaper, safer <tspan fill="#e2e8f0" font-weight="700">Claude Code</tspan> sessions.</text>
+</svg>

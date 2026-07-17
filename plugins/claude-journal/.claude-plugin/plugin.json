@@ -1,0 +1,10 @@
+{
+  "name": "claude-ai-journal",
+  "description": "Build and maintain a repo's AI operating system: factorized subagents that set up {project}_journal/ (architecture, service map, dev playbook, target tracker, pending tasks, issues, suggestions, review dashboard) plus git/CI automation and a deterministic sync tool. Run /journal-init to set up; hooks keep it in sync.",
+  "version": "0.1.0",
+  "author": {
+    "name": "junaid"
+  },
+  "keywords": ["journal", "documentation", "subagents", "automation", "workflow", "onboarding"],
+  "homepage": "https://github.com/junaiddop/claude-ai-journal"
+}

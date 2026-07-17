@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="claude-journal — a Claude Code plugin that gives your repo a memory">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f2a44"/>
+      <stop offset="1" stop-color="#141c31"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D97757" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#D97757" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- subtle dotted grid (top band) -->
+  <g fill="#ffffff" opacity="0.05">
+    <circle cx="80"  cy="44" r="2"/><circle cx="160" cy="44" r="2"/><circle cx="240" cy="44" r="2"/>
+    <circle cx="320" cy="44" r="2"/><circle cx="400" cy="44" r="2"/><circle cx="480" cy="44" r="2"/>
+  </g>
+
+  <!-- glow behind the mark -->
+  <circle cx="965" cy="250" r="185" fill="url(#glow)"/>
+
+  <!-- faint journal pages behind the mark -->
+  <g transform="translate(812 360)" opacity="0.5">
+    <rect x="18" y="18" width="250" height="150" rx="12" fill="url(#page)" opacity="0.55"/>
+    <rect x="9"  y="9"  width="250" height="150" rx="12" fill="url(#page)" opacity="0.8"/>
+    <rect x="0"  y="0"  width="250" height="150" rx="12" fill="#182136" stroke="#2b3a5c" stroke-width="1.5"/>
+    <rect x="18" y="18" width="96" height="10" rx="5" fill="#D97757"/>
+    <g fill="#3d4c6e">
+      <rect x="18" y="46" width="214" height="8" rx="4"/>
+      <rect x="18" y="66" width="188" height="8" rx="4"/>
+      <rect x="18" y="86" width="204" height="8" rx="4"/>
+    </g>
+    <circle cx="24" cy="122" r="5" fill="#ef4444"/>
+    <circle cx="44" cy="122" r="5" fill="#f59e0b"/>
+    <circle cx="64" cy="122" r="5" fill="#22c55e"/>
+  </g>
+
+  <!-- Claude "spark" mark (hero graphic, right) -->
+  <g transform="translate(965 250) scale(2.45)" fill="#D97757">
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(0)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(30)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(60)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(90)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(120)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(150)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(180)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(210)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(240)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(270)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(300)"/>
+    <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(330)"/>
+    <circle cx="0" cy="0" r="6" fill="#c15f3c"/>
+  </g>
+
+  <!-- pill -->
+  <g transform="translate(80 84)">
+    <rect x="0" y="0" width="210" height="32" rx="16" fill="#ffffff" opacity="0.06"/>
+    <rect x="0" y="0" width="210" height="32" rx="16" fill="none" stroke="#D97757" stroke-opacity="0.6" stroke-width="1"/>
+    <g transform="translate(21 16) scale(0.18)" fill="#D97757">
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(0)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(45)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(90)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(135)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(180)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(225)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(270)"/>
+      <path d="M0 0 C5.5 -15.4 5.5 -33 0 -44 C-5.5 -33 -5.5 -15.4 0 0 Z" transform="rotate(315)"/>
+    </g>
+    <text x="40" y="21" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#f5d9cc" letter-spacing="0.5">CLAUDE CODE PLUGIN</text>
+  </g>
+
+  <!-- title -->
+  <text x="76" y="212" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="88" font-weight="800" fill="#f8fafc" letter-spacing="-2.5">claude-journal</text>
+
+  <!-- tagline -->
+  <text x="80" y="262" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#cbd5e1">Give your repo a <tspan fill="#D97757" font-weight="800">memory.</tspan></text>
+  <text x="80" y="298" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="500" fill="#94a3b8">A self-maintaining brain your AI reads before it writes a line.</text>
+
+  <!-- feature rows -->
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <!-- 1 -->
+    <rect x="80" y="360" width="30" height="30" rx="9" fill="#2dd4bf" opacity="0.18"/>
+    <rect x="80" y="360" width="30" height="30" rx="9" fill="none" stroke="#2dd4bf" stroke-width="1.5"/>
+    <text x="124" y="381" font-size="22"><tspan fill="#f1f5f9" font-weight="700">Cheaper sessions</tspan><tspan fill="#94a3b8" font-weight="500"> · no re-deriving your codebase</tspan></text>
+    <!-- 2 -->
+    <rect x="80" y="416" width="30" height="30" rx="9" fill="#D97757" opacity="0.18"/>
+    <rect x="80" y="416" width="30" height="30" rx="9" fill="none" stroke="#D97757" stroke-width="1.5"/>
+    <text x="124" y="437" font-size="22"><tspan fill="#f1f5f9" font-weight="700">Safer code</tspan><tspan fill="#94a3b8" font-weight="500"> · footguns written down + enforced at merge</tspan></text>
+    <!-- 3 -->
+    <rect x="80" y="472" width="30" height="30" rx="9" fill="#a78bfa" opacity="0.18"/>
+    <rect x="80" y="472" width="30" height="30" rx="9" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="124" y="493" font-size="22"><tspan fill="#f1f5f9" font-weight="700">Zero upkeep</tspan><tspan fill="#94a3b8" font-weight="500"> · docs self-flag the moment code changes</tspan></text>
+  </g>
+
+  <!-- footer -->
+  <g transform="translate(80 556)">
+    <path d="M11 0 L14.2 6.9 L21.7 7.8 L16.1 13 L17.6 20.5 L11 16.7 L4.4 20.5 L5.9 13 L0.3 7.8 L7.8 6.9 Z" fill="#D97757"/>
+    <text x="34" y="16" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" fill="#cbd5e1">github.com/junaiddop/claude-ai-journal</text>
+    <text x="34" y="44" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#64748b">Free · Open source · MIT</text>
+  </g>
+</svg>

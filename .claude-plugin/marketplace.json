@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-ai-journal",
+  "description": "Set up and maintain a repo's AI operating system — a layered journal of docs + automation that makes every Claude Code session cheaper (less context re-derivation) and safer (design/security rules written down and enforced).",
+  "owner": {
+    "name": "junaid"
+  },
+  "plugins": [
+    {
+      "name": "claude-ai-journal",
+      "description": "Factorized subagents + commands that build and maintain {project}_journal/: architecture, service map, dev/security playbook, a target tracker, pending tasks, issues, suggestions, a review dashboard (journal.html), plus git/CI automation and a deterministic sync tool.",
+      "author": {
+        "name": "junaid"
+      },
+      "source": "./plugins/claude-journal",
+      "category": "workflow",
+      "homepage": "https://github.com/junaiddop/claude-ai-journal"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Keep the project journal in sync: on Stop, flag stale tasks + re-render journal.html; on SessionStart, surface any stale tasks. All commands no-op silently when the current project has no *_journal/ directory.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/journal_sync.py\" flag 2>/dev/null || python \"${CLAUDE_PLUGIN_ROOT}/scripts/journal_sync.py\" flag 2>/dev/null || true; python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/journal_sync.py\" render 2>/dev/null || python \"${CLAUDE_PLUGIN_ROOT}/scripts/journal_sync.py\" render 2>/dev/null || true",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/journal_sync.py\" detect 2>/dev/null || python \"${CLAUDE_PLUGIN_ROOT}/scripts/journal_sync.py\" detect 2>/dev/null || true",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -153,6 +153,13 @@ claude-journal/
         └── README.md             # plugin readme
 ```
 
+## Roadmap: Journal Service (MERN)
+
+The next step for this project is to turn the journal into a hosted service on the MERN stack,
+where every journal file is viewable as rendered Markdown and all pending tasks across repos
+appear on one dashboard. The design lives in [`docs/service/ARCHITECTURE.md`](./docs/service/ARCHITECTURE.md)
+and the build contract in [`docs/service/TECH_SPEC.md`](./docs/service/TECH_SPEC.md).
+
 ## License
 
 See [`LICENSE`](./LICENSE).
